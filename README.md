@@ -16,7 +16,7 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **Da
 - Dataset-wide sentiment classification of show descriptions using **VADER** (fast, lexicon-based).
 - On-demand, high-fidelity sentiment prediction of custom user text with a toggle between **VADER** and **DistilBERT** (Hugging Face Transformer model).
 - View distribution of positive, negative, and neutral sentiments across the catalog.
-![Sentiment Data Distribution](screenshots/Sentiment_Analysis.png)
+![Sentiment Data Distribution](screenshots/sentiment_data.png)
 ![Sentiment Analysis](screenshots/Sentiment_Analysis.png)
 
 ### 🎯 3. Hybrid Recommendation Engine

@@ -1,4 +1,4 @@
-# 🎬 Netflix Dashboard
+# 🎬 NetData: Sentiment Analyzer + Hybrid Recommender + Trend Analyzer
 
 An interactive Streamlit dashboard that analyzes Netflix content data using **Data-driven insights**, including **sentiment analysis** and a **content-based recommendation engine**.
 

@@ -10,34 +10,29 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **Da
 - Explore Netflix movies and TV shows.
 - Filter by **Type**, **Country**, and **Genre**.
 - Visualize content distribution using bar charts.
+![Overview Tab](screenshots/Dataset_Overview.png)
 
 ### 💬 2. Sentiment Analysis
 - Dataset-wide sentiment classification of show descriptions using **VADER** (fast, lexicon-based).
 - On-demand, high-fidelity sentiment prediction of custom user text with a toggle between **VADER** and **DistilBERT** (Hugging Face Transformer model).
 - View distribution of positive, negative, and neutral sentiments across the catalog.
+![Sentiment Data Distribution](screenshots/Sentiment_data.png)
+![Sentiment Analysis](screenshots/Sentiment_Analysis.png)
 
 ### 🎯 3. Hybrid Recommendation Engine
 - Recommender combining **description semantics (TF-IDF)**, **genre overlaps (multi-label binarizer)**, and **content age rating compatibility**.
 - Interactive weights selection via Streamlit sliders to adjust feature balance.
 - **Offline Evaluation Metrics** showing **Precision @ 5**, **Catalog Coverage @ 5**, and **Recommendation Diversity @ 5** to measure model performance and diversity trade-offs.
+![Recommender](screenshots/Recommender.png)
+![Evaluation Metrics](screenshots/Recommender_Eval.png)
 
 ### 📈 4. Trend Analysis
 - Visualize Netflix library growth since 2008 (Movies vs. TV Shows added).
 - Track the popularity evolution of the top 5 genres over the years.
 - View geographic production distribution trends for top countries.
-
----
-
-## 🖼️ Demo Screenshots
-
-### Overview Tab
-![Overview Tab](screenshots/overview.png)
-
-### Sentiment Analysis Tab
-![Sentiment Tab](screenshots/sentiment.png)
-
-### Recommendation Tab
-![Recommendation Tab](screenshots/recommendation.png)
+![Trend Analysis Content](screenshots/TrendAnalysis_Content.png)
+![Trend Analysis Genre](screenshots/TrendAnalysis_Genre.png)
+![Trend Analysis Growth](screenshots/TrendAnalysis_Growth.png)
 
 ---
 

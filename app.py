@@ -5,11 +5,11 @@ from src.recommender import build_recommender, recommend, evaluate_recommender
 
 # --- Streamlit Page Config ---
 st.set_page_config(
-    page_title="NetData",
+    page_title="Netflix Data",
     layout="wide",
 )
 
-st.title("🎬 NetData")
+st.title("🎬 Netflix Data")
 st.caption("Explore, analyze, and get recommendations using data-driven insights.")
 
 # --- Load and Process Data ---

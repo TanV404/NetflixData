@@ -1,6 +1,6 @@
 # 🎬 NetflixData
 
-An interactive Streamlit analytics and recommendation dashboard for exploring Netflix content with sentiment analysis, a tunable hybrid recommender system, and historical trend visualizations.
+An interactive analytics and recommendation dashboard for exploring Netflix content with sentiment analysis, a tunable hybrid recommender system, and historical trend visualizations.
 
 **Tech stack:** Streamlit · Pandas · Scikit-learn · VADER + DistilBERT (sentiment analysis) · TF-IDF + Multi-Hot Genre & Rating Similarity (hybrid recommender)
 

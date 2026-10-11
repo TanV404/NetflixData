@@ -1,4 +1,4 @@
-# 🎬 NetData
+# 🎬 NetflixData
 
 An interactive Streamlit analytics and recommendation dashboard for exploring Netflix content with sentiment analysis, a tunable hybrid recommender system, and historical trend visualizations.
 
